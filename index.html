@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>Javascript practice</title>
+    <link rel="stylesheet" href="style.css">
+<body style="background-color: black;">
+
+<div class="candle">
+<h1 class="let">Let's try to turn on and off this candle </h1>
+<button onclick="document.getElementById('myImage').src='myImage/candleon.png'">Turn on the candle</button>
+
+<img id="myImage" src="myImage/candleoff.png" style="width:500px">
+
+
+<button onclick="document.getElementById('myImage').src='myImage/candleoff.png'">Turn off the candle</button>
+
+</div>
+
+<div class="demo">
+
+<p id="demo">Want to see another type of candle?</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Yes,I am interested!"'>Click Me!</button>
+
+</div>
+
+
+<!-- -------------------------------------------------------- -->
+<div class="which-type">
+
+
+<p class="which">Which type of candle you want to see?</p>
+
+<p id="demo-2">I want to see some candles which is used to decoration in anniversary.</p>
+
+<button type="button" onclick="document.getElementById('demo-2').style.display='block'">Click Me!</button>
+
+</div>
+
+<!-- -------------------------------------------------------------------- -->
+<div class="candle-img">
+    <p class="here">Here you can see amazing type of decorative candles-</p>
+    <button onclick="document.getElementById('myImage-2').src='myImage/anni.jpg'">See white candles</button>
+    
+    <img id="myImage-2" src="myImage/anni.jpg" style="width:800px">
+    
+    
+    <button onclick="document.getElementById('myImage-2').src='myImage/colorful.jpg'">See colorful candles</button>
+    
+    </div>
+  
+</body>
+</html>
